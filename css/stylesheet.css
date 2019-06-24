@@ -20,6 +20,30 @@ header, nav, main, footer {
     display: inline;
 }
 
+table {
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3F2860;
+}
+
+tr:nth-of-type(even) {
+    background-color: #9BC1C2
+}
+
+caption {
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
 /* Header */
 header {
     background-color: #9BC1C2;
