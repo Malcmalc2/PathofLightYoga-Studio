@@ -107,8 +107,28 @@ nav ul {
     margin-left: auto;
 }
 
-/* Images */
+/* Form Styles */
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+}
 
+input, textarea {
+    display: block;
+    margin-bottom: 2em;
+}
+
+#mySubmit {
+    margin-left: 12em;
+}
+
+form {
+    padding: 3em;
+}
 
 /* Content */
 main {
